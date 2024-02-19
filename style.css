@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5ebdc !important;
+    font-family: "Lato", sans-serif;
+}
+.header{
+    width: 90%;
+}
+.main-logo{
+    background-color: #f5ebdc !important;
+    height: 50px;
+    position: relative;
+    left: 5%;
+}
+.ham-burger{
+    font-size: 25px;
+    color: rgb(80, 35, 20);;
+}
+.no-text-deco{
+    text-decoration: none;
+    color: inherit;
+}
+.button-1{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    padding: 7px 12px;
+    border-radius: 20px;
+}
+.button-1:hover{
+    background-color: rgb(197, 4, 4);
+}
+.button-2{
+    margin-left: 15px !important;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #502314;
+    padding: 7px 12px;
+    border-radius: 20px;
+}
+.color-maroon{
+    color: maroon;
+    font-weight: 600;
+}
+.ch-location{
+    color: maroon;
+    font-weight: normal;
+}
+.banner-text{
+    font-size: 60px;
+    font-weight: 900;
+}
+.banner-img{
+    width: 55%;
+}
+.button-3{
+    padding: 15px 75px;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    align-self: start;
+}
+.button-3:hover{
+    background-color: rgb(197, 11, 11);
+}
+.button-4{
+    padding: 15px 70px;
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+    border-radius: 30px;
+    align-self: start;
+}
+.button-4:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1000px){
+    .banner{
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .banner-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .banner-text{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner-text-out{
+        margin: 0 auto;
+    }
+    .banner-buttons{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:700px){
+    .header-buttons{
+        display: none;
+    }
+    .main-logo{
+        position: static;
+    }
+}
